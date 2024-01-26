@@ -159,7 +159,7 @@ def claim1(nomerhp1, klien1, entitychannel1, kalimat, pesankirim, findpesan):
       sekarang = time.time()
       infowaktu = time.localtime(sekarang)
       sys.stdout.write('\r                                                                 \r')
-      sys.stdout.write('\r['+str(infowaktu[3])+":"+str(infowaktu[4])+']{}'.format(hijau2,yellow2)+pesan1[2:52]+' ('+nomerhp1+')\n')
+      sys.stdout.write('\r['+str(infowaktu[3])+":"+str(infowaktu[4])+']{}'.format(hijau2,yellow2)+pesan1[2:51]+' ('+nomerhp1+')\n')
     else:
       sekarang = time.time()
       infowaktu = time.localtime(sekarang)
